@@ -1,5 +1,6 @@
 body{
-    background-color: #000;
+    background-color: var(--color-black);
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar{
@@ -42,7 +43,6 @@ body{
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sans", sans-serif;
 }
 
 .library{
@@ -71,7 +71,6 @@ body{
     border:0px;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -111,8 +110,7 @@ body{
 
 .section-playlist__content .text{
     padding-bottom:14px;
-    color:#FFF;
-    font-family: "DM Sans", sans-serif;
+    color:var(--color-white);
 }
 
 .section-playlist__content .title{
@@ -127,12 +125,11 @@ body{
 .section-playlist__content .section-playlist__button{
     display: flex;
     justify-content: center;
-    background-color: #FFF;
-    color:#000;
+    background-color: var(--color-white);
+    color:var(--color-black);
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration:none;
     text-transform: none;
     padding:10px;
@@ -147,7 +144,6 @@ body{
 
 .sidebar .cookies a{
     color:#b3b3b3;
-    font-family: "DM Sans", sans-serif;
     font-weight: 500;
     font-size:10px;
     text-decoration: none;
@@ -161,7 +157,7 @@ body{
     align-items: center;
     background-color: transparent;
     border: 1px solid #878787;
-    color:#FFF;
+    color: var(--color-white);
     font-weight: bold;
     cursor:pointer;
     width: 170px;
@@ -176,7 +172,7 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: linear-gradient(90deg,#af2896,#509bf5);
+    background-image: linear-gradient(90deg,#28af65,#871f9c);
     align-items: center;
     cursor: pointer;
     gap: 24px;
@@ -186,12 +182,11 @@ body{
 
 .disclaimer-premium .text{
     flex-shrink: 0;
-    font-family: "DM Sans", sans-serif;
 }
 
 .disclaimer-premium .disclaimer-premium__title{
     font-weight: 700;
-    color: #FFF;
+    color: var(--color-white);
     background-color: transparent;
     font-size: 0.875rem;
     margin: 10px 0px 14px 10px;
@@ -199,7 +194,7 @@ body{
 }
 
 .disclaimer-premium .disclaimer-premium__subtitle{
-    color: #FFF;
+    color: var(--color-white);
     font-size: 12px;
     background-color: transparent;
     text-transform: none;
@@ -211,10 +206,10 @@ body{
 .disclaimer-premium button{
     font-weight: bold;
     font-size: 16px;
-    background-color: #FFF;
+    background-color: var(--color-white);
     border-radius: 40px;
     text-transform: none;
-    color: #000;
+    color: var(--color-black);
     flex-shrink: 0;
     padding: 14px 30px;
     border: 0px;
